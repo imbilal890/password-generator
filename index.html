@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <input type="text" id="password" readonly>
+
+        <br><br>
+
+        <label>Password Length:</label>
+        <input type="number" id="length" value="12" min="4" max="30">
+
+        <br><br>
+
+        <button onclick="generatePassword()">Generate Password</button>
+        <button onclick="copyPassword()">Copy</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

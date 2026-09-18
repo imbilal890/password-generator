@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #08249f, #a8a7aa);
+}
+
+/* Main Card */
+
+.container {
+    width: 420px;
+    background: white;
+
+    padding: 35px;
+    border-radius: 20px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+}
+
+/* Icon */
+
+.icon {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f0edff;
+    border-radius: 50%;
+
+    font-size: 35px;
+}
+
+/* Heading */
+
+h1 {
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Password Box */
+
+.password-box {
+    display: flex;
+
+    background: #f5f5f7;
+
+    border: 2px solid #eee;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    margin-bottom: 25px;
+}
+
+.password-box input {
+    flex: 1;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    padding: 15px;
+
+    font-size: 16px;
+}
+
+.copy-btn {
+    border: none;
+    background: transparent;
+
+    padding: 0 15px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background: #e8e5ff;
+}
+
+/* Length */
+
+.length-section {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.length-text {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+
+    color: #444;
+}
+
+.length-text strong {
+    color: #667eea;
+}
+
+/* Range */
+
+input[type="range"] {
+    width: 100%;
+
+    cursor: pointer;
+
+    accent-color: #667eea;
+}
+
+/* Options */
+
+.options {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+
+    text-align: left;
+
+    margin-bottom: 25px;
+}
+
